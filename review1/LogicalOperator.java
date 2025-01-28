@@ -8,12 +8,19 @@ public class LogicalOperator {
 		Scanner input = new Scanner(System.in);
 		System.out.println("please enter your age?");
 
+		
+		
+		
 		int age = input.nextInt();
 		if (age == 0) {
+			
 			System.out.println("you are a newborn");
 		} else if (age >= 1 && age <= 3) {
 			System.out.println("you are a baby");
 		}
+		
+		
+		
 		// using AND is better for a range
 		else if (age == 4 || age == 5) {
 			System.out.println("you are a toddler");

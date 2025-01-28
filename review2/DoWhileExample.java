@@ -9,10 +9,14 @@ System.out.println("--------------------------------------------");
 	while(age<=10) {System.out.println("Happy Birthday! you are" + age +"years old");
 	age++;}
 	
+	
+	
 	  System.out.println("-----------------------------------"); 
 		  int age2=1; do
+			  
 		  
-	  {System.out.println( "Happy Birthday! you are" + age2 + "years old!"); age2++;
+	 
+		  {System.out.println( "Happy Birthday! you are" + age2 + "years old!"); age2++;
 	  } while(age2<=10);
 	  
 	  System.out.println("-----------------------------------");

@@ -11,16 +11,16 @@ public class HomeWork1 {
 	//	End the Session (close the browser).
 
 	public static void main(String[] args) throws InterruptedException {
-		
+		//
 		WebDriver driver= new FirefoxDriver();
 		driver.get("https://www.amazon.com/");
-		
+		// no
 String expectedTitle="Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more";
 			String actualTile=driver.getTitle();
 		if(expectedTitle.equals(actualTile)) {
 			System.out.println("Title is-->:"+ driver.getTitle());
 		}else {System.out.println("this is the wrong title");}
-		
+		//
 		Thread.sleep(5000);// this is a java method(not coming from selenium)
 		// we use it to stop the code so that we can visually inspect the result/test.
 		driver.quit();
